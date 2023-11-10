@@ -1,4 +1,4 @@
-# Advanced Testing Course - Summary
+# Programming Fundamental For Testing - Summary
 
 In this class, we delved into the essential foundations of JavaScript, explored the principles of object-oriented programming with TypeScript, and mastered the use of asynchronous functions. The session was intensive, filled with new challenges, and packed with valuable information, tailored specifically for our journey as testers.
 
