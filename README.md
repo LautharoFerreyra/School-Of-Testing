@@ -1,25 +1,25 @@
-# School of Testing - Proyecto de Automatización
+# School of Testing - Automation Project
 
-¡Bienvenido al repositorio del proyecto de automatización de la School of Testing, una emocionante oportunidad proporcionada por Endava para aprender Automation Testing!
+Welcome to the repository of the School of Testing automation project, an exciting opportunity provided by Endava to learn Automation Testing!
 
-## Herramientas Principales
-En este proyecto, nos sumergiremos en el fascinante mundo de la automatización utilizando las siguientes herramientas principales:
-- **Postman**: Para la creación y ejecución de solicitudes de API de manera eficiente.
-- **DevTools**: Herramientas de desarrollo integradas para la inspección y depuración de aplicaciones web.
-- **Cypress**: Un potente framework de pruebas de extremo a extremo para aplicaciones web modernas.
+## Main Tools
+In this project, we will delve into the fascinating world of automation using the following key tools:
+- **Postman**: For efficient creation and execution of API requests.
+- **DevTools**: Integrated development tools for inspecting and debugging web applications.
+- **Cypress**: A powerful end-to-end testing framework for modern web applications.
 
-## Lenguajes de Programación
-Exploraremos y aplicaremos diversos lenguajes de programación en nuestro viaje de automatización, incluyendo:
-- **JavaScript**: Para la creación de scripts y pruebas dentro del entorno del navegador.
-- **TypeScript**: Una alternativa tipada de JavaScript para mejorar la robustez del código.
-- **Java**: Exploraremos también la posibilidad de utilizar Java para algunas pruebas específicas.
+## Programming Languages
+We will explore and apply various programming languages in our automation journey, including:
+- **JavaScript**: For scripting and testing within the browser environment.
+- **TypeScript**: A typed superset of JavaScript to enhance code robustness.
+- **Java**: We will also explore the possibility of using Java for specific tests.
 
-## Estructura del Repositorio
-- **/postman**: Contiene colecciones de Postman para pruebas de API.
-- **/cypress**: Aquí encontrarás los scripts de prueba escritos con Cypress.
-- **/devtools**: Archivos relacionados con la utilización de DevTools.
+## Repository Structure
+- **/postman**: Contains Postman collections for API testing.
+- **/cypress**: Here you will find test scripts written with Cypress.
+- **/devtools**: Files related to the use of DevTools.
 
-## Contribuciones
-¡Contribuciones son bienvenidas! Siéntete libre de hacer fork de este repositorio, realizar mejoras y enviar pull requests. Juntos, construiremos un sólido conjunto de automatización de pruebas.
+## Contributions
+Contributions are welcome! Feel free to fork this repository, make improvements, and send pull requests. Together, we will build a robust set of test automation.
 
-¡Gracias por unirte a esta emocionante aventura de aprendizaje en la School of Testing!
+Thank you for joining this exciting learning adventure at the School of Testing!
