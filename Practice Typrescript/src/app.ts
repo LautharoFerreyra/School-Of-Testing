@@ -6,10 +6,19 @@
 // console.log(person1.name);
 // person2.hello();
 
-import { orderCoffe } from "./coffe";
+import { orderCoffe } from "./Coffe";
 
-async function coffe(): Promise<void> {
+async function Coffe(): Promise<void> {
     console.log("order coffe...");
+    const message = await orderCoffe();
+
+    console.log(message);   
+}
+
+import { readBook } from "./Coffe";
+
+async function Book(): Promise<void> {
+    console.log("finish read yout book...");
     const message = await orderCoffe();
 
     console.log(message);   
