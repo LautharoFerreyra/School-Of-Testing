@@ -25,5 +25,6 @@ jobs:
       run: |
         npx cypress run
       env:
-        CYPRESS_browser: chrome  # Puedes cambiar 'chrome' por 'firefox', etc.
+        CYPRESS_BROWSER: chrome  # Puedes cambiar 'chrome' por 'firefox', etc.
+
 
