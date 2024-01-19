@@ -1,8 +1,8 @@
-import loginData from "../test-data/login";
-import loginPage from "../support/pageObject/login.page";
+import loginData from "../../test-data/login";
+import loginPage from "../../support/pageObject/login.page";
 
 
-describe('Login Spotify', () => {
+describe('LogIn Spotify', () => {
 
     beforeEach(() => {
       cy.visit('');
@@ -17,7 +17,7 @@ describe('Login Spotify', () => {
       loginPage.loginButtonGreen.click();
       loginPage.login(loginData.validEmail, loginData.validPassword)
       loginPage.loginButton.click()
-      cy.get('[data-testid="user-widget-link"]').should("be.visible")
+      loginPage.userPicture.should("be.visible")
     });
 
     it('@Smoke - Wrong mail', () => {

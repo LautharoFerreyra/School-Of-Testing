@@ -18,7 +18,9 @@ class LoginPage{
     get wrongPassword(){
         return cy.get('.Message-sc-15vkh7g-0')
     }
-
+    get userPicture(){
+        return cy.get('[data-testid="user-widget-link"]')
+    }
     login(email, password) {
         this.loginBox.click().type(email);
         this.passwordBox.click().type(password);
