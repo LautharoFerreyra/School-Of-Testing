@@ -13,7 +13,7 @@ describe('LogIn Spotify', () => {
       cy.get('.FhYyy6QP2zu_ImcCjKWg').should("be.visible");
     });
 
-    it.skip('@Smoke - Should be logIn', () => {
+    it('@Smoke - Should be logIn', () => {
       loginPage.loginButtonWhite.click();
       loginPage.login(loginData.validEmail, loginData.validPassword);
       loginPage.loginButton.click();
@@ -31,7 +31,7 @@ describe('LogIn Spotify', () => {
     // });
 
 
-    it.skip('Wrong mail', () => {
+    it('Wrong mail', () => {
       loginPage.loginButtonWhite.click();
       loginPage.login(loginData.invalidEmail, loginData.validPassword);
       loginPage.loginButton.click()
@@ -39,14 +39,14 @@ describe('LogIn Spotify', () => {
 
     });
 
-    it.skip('Login with uppercase letters', () => {
+    it('Login with uppercase letters', () => {
       loginPage.loginButtonWhite.click();
       loginPage.login(loginData.validEmail.toUpperCase(), loginData.validPassword.toUpperCase());
       loginPage.loginButton.click();
       loginPage.wrongPassword.should("be.visible");
     });
 
-    it.skip('Wrong Format', () => {
+    it('Wrong Format', () => {
       loginPage.loginButtonWhite.click();
       loginPage.login(loginData.wrongEmailFormat, loginData.validPassword);
       loginPage.loginButton.click();

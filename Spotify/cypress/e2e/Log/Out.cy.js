@@ -8,7 +8,7 @@ describe('LogOut Spotify', () => {
       cy.visit('');
     });
 
-    it.skip("Must open spotify", () => {
+    it("Must open spotify", () => {
       cy.url().should('eq', 'https://open.spotify.com/');
       cy.get('.FhYyy6QP2zu_ImcCjKWg').should("be.visible");
     });

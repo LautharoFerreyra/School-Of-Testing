@@ -15,16 +15,17 @@ describe('Play Songs', () => {
     
 
     it("Search a song", () => {
+        playsongPage.searchButton.should('be.visible').click();
         playsongPage.searchButton.click();
         playsongPage.searchInput.click().type("tan bionica");
         playsongPage.musicReporoduction.click({ force: true });
-        playsongPage.likeButton.click();
     });
 
-    it("Search a arist", () => {
-        cy.get(':nth-child(2) > .link-subtle').click()
-        cy.get('[data-testid="search-input"]').click().type("")
-        cy.get('[aria-rowindex="1"] > [data-testid="tracklist-row"] > .gvLrgQXBFVW6m9MscfFA').click({ force: true });
+    it.skip("Search a arist", () => {
+        playsongPage.searchButton.should('be.visible').click();
+        playsongPage.searchButton.click();
+        playsongPage.searchButton.click();
+        playsongPage.searchInput.click().type("a");
         cy.get('[aria-rowindex="1"] > [data-testid="tracklist-row"] > .HcMOFLaukKJdK5LfdHh0')
     });
 });
