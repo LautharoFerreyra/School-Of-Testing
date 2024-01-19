@@ -1,6 +1,6 @@
 const loginData = {
     validEmail: "ellautha@gmail.com",
-    validPassword: "optimo1881",
+    validPassword: "optimo1882",
     invalidEmail: "invalidEmail@gmail.com",
     invalidPassword: "invalidPass",
     wrongEmailFormat: "wrongEmail",
