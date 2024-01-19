@@ -23,8 +23,6 @@ jobs:
     
     - name: Run Smoke Tests
       run: |
-        npx cypress run
-      env:
-        CYPRESS_BROWSER: chrome  # Puedes cambiar 'chrome' por 'firefox', etc.
+        npx cypress run --browser chrome
 
 
