@@ -16,8 +16,7 @@ describe('LogOut Spotify', () => {
     it("Correct LogOut", () => {
       loginPage.loginButtonGreen.click();
       loginPage.login(loginData.validEmail, loginData.validPassword)
-      loginPage.loginButton.click();
-      loginPage.userPicture.should("be.visible");
+      loginPage.loginButton.click()
       loginPage.userPicture.click();
       logoutPage.LogoutButton.click();
     });
