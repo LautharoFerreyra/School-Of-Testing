@@ -22,4 +22,6 @@ jobs:
       
     
     - name: Run Smoke Tests
+      env:
+          CYPRESS_browser: "chrome"
       run: npx cypress run 
